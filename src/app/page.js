@@ -22,8 +22,10 @@ const AnimatedSection = ({ children, className = "" }) => {
 };
 
 const ProjectCard = ({title, description, tags, delay, link}) =>{
+
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false, amount: 0.3 });
+
   return(
       <motion.div
       ref={ref}
@@ -34,6 +36,9 @@ const ProjectCard = ({title, description, tags, delay, link}) =>{
     >
       <h3 className={"text-xl font-bold mb-3"}>{title}</h3>
       <p className={"text-slate-300 "}>{description}</p>
+      <motion.div>
+        
+      </motion.div>
       <div className="flex flex-wrap gap-2 mt-3">
         {tags.map((tag, index) => (
           <span
@@ -325,7 +330,7 @@ export default function Home() {
               Check out some of my recent work and personal projects.
             </p>
           </AnimatedSection>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mt-8 sm:mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 ">
             <ProjectCard
               title="Clicker Game"
               description="A fun and addictive clicker game built with NextJS."
