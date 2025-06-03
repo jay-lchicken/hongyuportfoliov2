@@ -37,7 +37,6 @@ const ProjectCard = ({title, description, tags, delay, link}) =>{
       <h3 className={"text-xl font-bold mb-3"}>{title}</h3>
       <p className={"text-slate-300 "}>{description}</p>
       <motion.div>
-        
       </motion.div>
       <div className="flex flex-wrap gap-2 mt-3">
         {tags.map((tag, index) => (
@@ -324,7 +323,8 @@ export default function Home() {
 
       <div className="p-4 sm:p-6 md:p-10 bg-[#A2A392]">
         <AnimatedSection className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-slate-800">Featured Projects</h2>
+            <h2 className="text-3xl  sm:text-4xl font-bold mb-4 text-slate-800">Featured Projects</h2>
+            
             <div className="h-1 w-16 sm:w-20 bg-teal-500 mx-auto mb-6 sm:mb-8"></div>
             <p className="max-w-2xl mx-auto text-slate-700 px-4">
               Check out some of my recent work and personal projects.
@@ -364,7 +364,7 @@ export default function Home() {
               description="A attendance system for the school to streamline attendance taking, built with Next.js and Firebase. "
               tags={["Next.js", "Firebase", "ReactQR"]}
               delay={0.5}
-              link={"https://attendance.techtime.coffee/"}
+              link={"https://rollwise.techtime.coffee/"}
             />
           </div>
       </div>
