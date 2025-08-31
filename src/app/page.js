@@ -366,6 +366,13 @@ export default function Home() {
               delay={0.5}
               link={"https://rollwise.techtime.coffee/"}
             />
+          <ProjectCard
+              title="Project S208"
+              description="A homework management system to send all homework to the WhatsApp Announcement Channel using Apple Shortcuts that calls the API from this website"
+              tags={["Next.js", "Apple Shorcuts", "WhatsApp"]}
+              delay={0.5}
+              link={"https://github.com/jay-lchicken/ClassHomework"}
+            />
           </div>
       </div>
 
