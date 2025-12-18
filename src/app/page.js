@@ -373,6 +373,28 @@ export default function Home() {
               delay={0.5}
               link={"https://github.com/jay-lchicken/ClassHomework"}
             />
+          <ProjectCard
+              title="KLC Portal"
+              description="Kids Learn Code is a organisation in my school where they plan and organise coding workshops for primary school students. This portal is used to manage the volunteer's service hours."
+              tags={["Next.js", "PostgreSQL", "Redis", "Clerk"]}
+              delay={0.5}
+              link={"https://p2.kidslearncode.org"}
+            />
+          <ProjectCard
+              title="Koko"
+              description="Koko is a website where you can create classes that you are in and add your classmates. Once added, every homework you create that is under the class will appear in each member's To-Do List. You can also keep track of your exam scores and store a copy of your exam papers as well."
+              tags={["Next.js", "PostgreSQL", "Redis", "S3 Storage","Clerk"]}
+              delay={0.5}
+              link={"https://koko.techtime.coffee"}
+            />
+          <ProjectCard
+              title="SnapMind"
+              description="A free Quizlet alternative that allows users to create and study flashcards. All you have to do is scan your notes and you will get AI-Generated flashcards and quizzes to help you study more effectively."
+              tags={["Swift", "OpenRouter"]}
+              delay={0.5}
+              link={"https://apps.apple.com/us/app/snapmind/id6747242336"}
+            />
+
           </div>
       </div>
 
